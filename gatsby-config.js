@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `S.`,
+    title: `Change name of your site`,
   },
   plugins: [
     `gatsby-plugin-emotion`,
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `S.`,
-        short_name: `S.`,
+        name: `Change name of your site`,
+        short_name: `site name`,
         start_url: `/`,
         display: `standalone`,
         icon: `static/logo.png`,
