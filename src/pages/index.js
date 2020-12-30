@@ -15,10 +15,13 @@ export default function Home({ data }) {
   console.log(data)
   return (
     <Layout>
-      <div>
         <h3>{data.site.siteMetadata.title}</h3>
         <Divider />
-      </div>
+        <h1> test h1</h1>
+        <h3> test h3</h3>
+        <h5> test h5</h5>
+        <p> test paragraph</p>
+        <button> test button</button>
     </Layout>
   )
 }
