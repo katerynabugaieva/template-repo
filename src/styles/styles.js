@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) =>
     theme === "light" ? "#f2eecb" : "#121212"}; // #f2eecb old paper
 
+  h1,
   h3,
   h4,
   p {
