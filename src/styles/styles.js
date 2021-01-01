@@ -12,10 +12,7 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) =>
     theme === "light" ? "#f2eecb" : "#121212"}; // #f2eecb old paper
 
-  h1,
-  h3,
-  h4,
-  p {
+  h1, h3, h4, p, table, th, td {
     color: ${({ theme }) => (theme === "dark" ? "#F0FFFF" : "#212121")};
     text-emphasis: ${({ theme }) => (theme === "dark" ? "87%" : "100%")};
   }
@@ -31,4 +28,5 @@ export const Wrapper = styled.div`
   button {
     color: ${({ theme }) => (theme === "dark" ? "#e07b39" : "#1979a9")};
   }
+}
 `
